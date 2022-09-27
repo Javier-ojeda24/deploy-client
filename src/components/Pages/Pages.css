@@ -1,0 +1,24 @@
+ul.pagination li {
+	display: inline;
+}
+.boder {
+	background-color: black;
+	position: relative;
+	overflow: hidden;
+}
+.pagina {
+	background-color: #bfa36f;
+	width: 40px;
+	height: 50px;
+	line-height: 20px;
+	text-align: center;
+	color: black;
+	font-size: 19px;
+	font-weight: 700px;
+	transition: 0.4s linear;
+	justify-content: space-around;
+}
+.pagina:hover {
+	background-color:rgb(1, 54, 61);
+	color: black;
+}

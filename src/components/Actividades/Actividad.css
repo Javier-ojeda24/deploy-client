@@ -1,0 +1,97 @@
+.form-contain {
+	background-attachment: fixed;
+
+	overflow-y: hidden;
+	min-height: 100vh;
+}
+
+.display-block {
+	display: block;
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+
+.btn-volver {
+	position: relative;
+	text-align: center;
+	top: 580px;
+}
+
+.formulario {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: stretch;
+	margin: 15px;
+	margin-right: 500px;
+	margin-left: 500px;
+	padding: 28px;
+	padding-bottom: 30px;
+	border: 1px solid white;
+	border-radius: 15px;
+	background-color: rgba(69, 69, 69, 0.7);
+}
+
+.country-added {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: stretch;
+	margin: 15px;
+	margin-right: 500px;
+	margin-left: 500px;
+	padding: 28px;
+	padding-bottom: 30px;
+	border: 1px solid white;
+	border-radius: 15px;
+	box-shadow: 6px 7px 8px -6px rgba(69, 69, 69, 0.7);
+	background-color: rgba(69, 69, 69, 0.7);
+}
+
+body {
+	text-align: center;
+}
+
+.crear-titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #f8b021;
+	font-size: 55px;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-shadow: 2px 5px black;
+}
+
+.btn-volver button {
+	background-color: rgb(83, 83, 145);
+	box-shadow: 0 3px 12px rgba(255, 255, 255, 0.663);
+	color: black;
+	border-top: 0;
+	border-left: 0;
+	padding: 10px;
+	border-radius: 3px;
+	position: relative;
+	left: 400px;
+}
+
+.submit-button {
+	background-color: rgb(83, 83, 145);
+	color: black;
+	padding: 15px;
+	position: relative;
+	top: 10px;
+}
+.botonX {
+	color: #9e2a2b;
+	border-color: #9e2a2b;
+	background: none;
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 4px;
+	justify-content: center;
+	margin-top: 5px;
+	transition: all 0.3s ease;
+}
